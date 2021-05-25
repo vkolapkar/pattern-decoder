@@ -15,3 +15,12 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/vkolapkar/pattern-decoder.git
 git push -u origin main
+
+
+Issue while pushing repo 
+
+#1 : Add your sshe public key to github account 
+on Git bash run & generate certificate just keep on entering no need to put any details
+ssh-keygen -t rsa -C "vinayak.kolapkar@newscapeconsulting.com"  
+#2 :
+https://stackoverflow.com/questions/7438313/pushing-to-git-returning-error-code-403-fatal-http-request-failed
