@@ -9,7 +9,9 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
-
+/*
+ * 
+ */
 public class DecoderMain {
 
 	private static String sourceFolder = ".\\src\\com\\src\\bl";
@@ -32,6 +34,7 @@ public class DecoderMain {
 	}
 
 	private void startupTask() {
+		//read Config
 		
 		readAllFilesAndCreateMap(); 
 		//System.out.println("COLLECTIVE MAP====>");
