@@ -37,7 +37,7 @@ public class PatternDecoderMain {
 
 		//load all user-defined patterns
 		try {
-			prop = readPropertiesFile("A:\\eclipse_workspace\\pattern-decoder-2\\src\\resources\\config.properties");
+			prop = readPropertiesFile("config.properties");
 
 			patternsMap.put("1", prop.getProperty("pattern1"));
 			patternsMap.put("2", prop.getProperty("pattern2"));
